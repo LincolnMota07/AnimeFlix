@@ -1,0 +1,76 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-image: url("https://png.pngtree.com/background/20230525/original/pngtree-wallpaper-anime-of-the-city-on-a-clear-night-sky-with-picture-image_2727081.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #000000;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.page-logo {
+    width: 200px;
+
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#listaAnimes img {
+    margin: 10px;
+    max-height: 250px;
+}
+
+.form-wrapper {
+    margin: 0 0 15px;
+}
+
+.form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.form-wrapper button {
+    border: 0;
+    color: azure;
+    background: #da1e26 ;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+    background-color: #000000;
+    opacity: 0.7;
+}
+
+p {
+    color: white;
+}
